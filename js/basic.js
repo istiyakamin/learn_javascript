@@ -23,6 +23,8 @@ var firstVariable = 'istiyak',
 // this is single quota
 var singleQuote = 'This is sigle',
 	dobleQuote = "This is Doble", // this is doble quota
-	number = 20, //this is for numbe
+	number = 20; //this is for numbe
 
-	
+	arrayTest = ['istiyak', 'Amin', 'Santo'];
+
+	console.log(arrayTest[2]);
