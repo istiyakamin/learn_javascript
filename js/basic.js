@@ -27,4 +27,10 @@ var singleQuote = 'This is sigle',
 
 	arrayTest = ['istiyak', 'Amin', 'Santo'];
 
-	console.log(arrayTest[2]);
+	console.log(arrayTest[0+1]);
+
+	objectTest = {
+		santo : 'good boy',
+		nayem : 'bad boy'
+	};
+	console.log(objectTest.santo);
