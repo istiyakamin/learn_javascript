@@ -53,13 +53,26 @@ var oneObject = new String('hello world');
 
 	console.log(oneObject);
 
-function getColor(color) {
-	var things = {
-		red : "this is red",
-		blue : "this is blue"
-	};
+// function getColor(color) {
+// 	var things = {
+// 		red : "this is red",
+// 		blue : "this is blue"
+// 	};
 
-	return things[color] || "Color Not Found";
+// 	return things[color] || "Color Not Found";
+// }
+
+// 	console.log(getColor('red'));
+
+var color = function getColor(color) {
+	var test = console.log(color);
+	return true;
 }
 
-	console.log(getColor('red'));
+(function newFunc() {
+	console.log("Invoked Automatically");
+}());
+
+!function otherFunc(){
+	console.log("INvoked Automatically Tooo");
+}();
