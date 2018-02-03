@@ -41,9 +41,20 @@ var anArray = ['item1', 'item2', 'item3'];
 
 	for(var i = 1; i <=10; i++){
 		console.log(i);
-		console.log(i++);
-		console.log(++i);
+//		console.log(i++); // Odd number 
+//		console.log(++i); // Even Number
 
+	}
+
+	// for in 
+	var anObject = {
+		prop1 : 'property1',
+		prop2 : 'property2',
+		prop3 : 'property3',
+		prop4 : 'property4'
+	}
+	for(var prop in anObject){
+		console.log(anObject[prop]);
 	}
 	
 
