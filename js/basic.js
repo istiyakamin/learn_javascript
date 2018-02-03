@@ -7,3 +7,5 @@ This is for testing
 
 //Console only for use debuggin purpose
 console.log('This is for testing');
+
+alert('Welcome to learning Javascript');
