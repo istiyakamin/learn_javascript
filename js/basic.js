@@ -14,8 +14,15 @@ var firstVariable = 'istiyak',
 	age = 20,
 	email, other;
 
-	email = age;
+	email = age;	
 
 	console.log(firstVariable);
 	console.log(age);
-	console.log(email)
+	console.log(email);
+
+// this is single quota
+var singleQuote = 'This is sigle',
+	dobleQuote = "This is Doble", // this is doble quota
+	number = 20, //this is for numbe
+
+	
