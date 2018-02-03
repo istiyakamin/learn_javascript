@@ -56,6 +56,22 @@ var anArray = ['item1', 'item2', 'item3'];
 	for(var prop in anObject){
 		console.log(anObject[prop]);
 	}
+
+	// while loop
+	var limit = 1;
+	while (limit <= 5) {
+		console.log(limit++);
+	}
+
+	// do while 
+	var tooLimit = 1;
+	do{
+		tooLimit++;
+		console.log("Once");
+	}while (tooLimit <=3) {
+		console.log(tooLimit);
+
+	}
 	
 
 }());
