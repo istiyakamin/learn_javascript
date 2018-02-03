@@ -48,3 +48,7 @@ var modulus = 100%3;
 	console.log(multiple); // 25
 	console.log(division); // 10
 	console.log(modulus); // 1
+
+var oneObject = new String('hello world');
+
+	console.log(oneObject);
