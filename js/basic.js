@@ -95,3 +95,5 @@ var color = function getColor(color) {
 	}
 	console.log(object.method());
 }());
+
+
