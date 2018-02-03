@@ -57,7 +57,7 @@ function getColor(color) {
 	var things = {
 		red : "this is red",
 		blue : "this is blue"
-	}
+	};
 
-	return things['color'] || "Color Not Found";
+	return things[color] || "Color Not Found";
 }
