@@ -52,3 +52,12 @@ var modulus = 100%3;
 var oneObject = new String('hello world');
 
 	console.log(oneObject);
+
+function getColor(color) {
+	var things = {
+		red : "this is red",
+		blue : "this is blue"
+	}
+
+	return things['color'] || "Color Not Found";
+}
