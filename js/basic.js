@@ -61,3 +61,5 @@ function getColor(color) {
 
 	return things[color] || "Color Not Found";
 }
+
+	console.log(getColor('red'));
