@@ -76,3 +76,22 @@ var color = function getColor(color) {
 !function otherFunc(){
 	console.log("INvoked Automatically Tooo");
 }();
+
+	console.log(window.location.href);
+
+(function locaFunc() {
+	var local = "Hello World";
+	console.log(local);
+	console.log(addition);
+}());
+
+(function thisFunc(){
+	"use strict"
+	var object = {
+		properity : "This is First Properity",
+		method : function () {
+			return this.properity;
+		}
+	}
+	console.log(object.method());
+}());
