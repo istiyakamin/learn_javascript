@@ -34,3 +34,17 @@ var singleQuote = 'This is sigle',
 		nayem : 'bad boy'
 	};
 	console.log(objectTest.santo);
+
+// Arithmatic Operator
+	
+var addition = 50+50;
+var subtraction = 50-30;
+var multiple = 5*5;
+var division = 100/10;
+var modulus = 100%3;
+	
+	console.log(addition); //100
+	console.log(subtraction); // 20
+	console.log(multiple); // 25
+	console.log(division); // 10
+	console.log(modulus); // 1
