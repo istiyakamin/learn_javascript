@@ -1,4 +1,5 @@
 (function () {
+	"use strict"
 	var myName = 'MY name is Istiyak Amin Santo';
 
 	console.log(myName.length); // measuring the length
