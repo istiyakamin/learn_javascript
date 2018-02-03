@@ -30,4 +30,21 @@ switch (switcher) {
 		break;
 }
 
+var anArray = ['item1', 'item2', 'item3'];
+	console.log(anArray.length);
+
+	for (var i = 0; i < anArray.length; i++) {
+		console.log(anArray[i]);
+	}
+
+	// Natural number 
+
+	for(var i = 1; i <=10; i++){
+		console.log(i);
+		console.log(i++);
+		console.log(++i);
+
+	}
+	
+
 }());
