@@ -18,4 +18,8 @@
 	fullID.innerHTML = '<div>' + fullID.innerHTML + '</div>';
 	fullID.outerHTML = '<section>' + fullID.outerHTML + '</section>';
 
+	var titleName = document.getElementsByClassName('paragraph')[0];
+	titleName.textContent = "I love Javascript";
+	console.log(titleName);
+
 }())
