@@ -24,4 +24,14 @@
 
 	titleName.setAttribute('contenteditable', true);
 
+
+	fullID.addEventListener('click',function (e) {
+		console.log('This is a ' + e.target.nodeName);
+		e.stopPropagation();
+	});
+
+	document.addEventListener('click',function () {
+		console.log("Hello, I am Clicked ");
+	});
+
 }())
