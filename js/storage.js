@@ -20,6 +20,7 @@
 
 	window.sessionStorage.removeItem('item1');
 	window.sessionStorage.clear();
+	
 	readAll()
 
 }());
