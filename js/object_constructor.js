@@ -1,11 +1,14 @@
 (function () {
 	"use strict";
 
-	var myObj = {
-		"one" : "this is Number One"
+	var obj = {
+		'one' : 'this is Number One',
+	}
+	var obj2 = {
+		'two' : 'this is Number two',
 	}
 
-	Object.prototype.NewObj = "hello";
+	Object.prototype.specialProperty = "hello";
 
-	console.log(NewObj);
+	console.log(obj2);
 }());
